@@ -1,0 +1,129 @@
+.Container-Header {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    color: white;
+    }
+
+    .Container-nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 60px;
+        background-color: #1a1a1a;
+    }
+
+    .Container-ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 40%;
+        
+    }
+
+    .Container-ul p{
+        background: #e74c3c;
+        font-size: 1.2rem;
+        cursor: pointer;
+        color: white;
+        border-radius: 12px;
+        display: flex;
+        justify-content: center;
+        width: 40%;
+    }
+
+    .Container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 22%;
+        height: 35px;
+        border-right: 2px solid #ffffff;
+        border-left: 2px solid #ffffff;
+    }
+
+ @media screen and (min-width: 700px) {
+        .Container-ul{
+            width: 30%;
+        }
+        .Container-ul p{
+            width: 30%;
+        }
+        .Container{
+            width: 15%;
+        }
+    }
+    
+    .Container-ul p:hover{
+        background: #e74c3c;
+        color: white;
+    }
+    
+    .Container-ul p:active{
+        background: #e74c3c;
+        color: white;
+    }
+    
+    .Container-ul p:focus{
+        background: #e74c3c;
+        color: white;
+    }
+    
+    .Container-ul p:hover{
+        background: #e74c3c;
+        color: white;
+    }
+    
+    .Container-ul p:active{
+        background: #e74c3c;
+        color: white;
+    }
+    
+    .Container-ul p:focus{
+        background: #e74c3c;
+        color: white;
+    }
+    
+    .Container-ul p:hover{
+        background: #e74c3c;
+        color: white;
+    }
+    
+    .Container-ul p:active{
+        background: #e74c3c;
+        color: white;
+    }
+    
+    .Container-ul p:focus{
+        background: #e74c3c;
+        color: white;
+    }
+    
+    .Container-ul p:hover{
+        background: #e74c3c;
+        color: white;
+    }
+    
+    .Container-ul p:active{
+        background: #e74c3c;
+        color: white;
+    }
+    
+    .Container-ul p:focus{
+        background: #e74c3c;
+        color: white;
+    }
+    
+    .Container-ul p:hover{
+        background: #e74c3c;
+        color: white;
+    }
+    
+    .Container-ul p:active{
+        background: #e74c3c;
+        color: white;
+    }

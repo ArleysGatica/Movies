@@ -1,0 +1,38 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__logo {
+        margin-top: 1rem;
+        width: 150px;
+    }
+
+    &__list {
+        list-style: none;
+        margin: 1rem 0;
+        padding: 0;
+        display: flex;
+    }
+
+    &__item {
+        margin-right: 1rem;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    &__store {
+        margin-bottom: 1rem;
+
+        & img:first-child {
+            margin-right: 1rem;
+        }
+    }
+
+    &__copyright {
+        font-size: 12px;
+    }
+}

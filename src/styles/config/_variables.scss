@@ -1,0 +1,26 @@
+$max-width : 100%;
+
+$breakpoints : (
+      s:640px,
+      m:768px,
+      l:960px,
+      xl:1024px,
+      xxl:1200px,
+);
+// paleta de colores
+
+:root {
+      --red-full: #e74c3c;
+      --red-full-opacity: #e74d3c8c;
+      --red-light: #f1c40f;
+}
+
+//variables de apilamiento (z-index)
+:root {
+      --z-back:-10;
+      --z-normal:1;
+      --z-tooltip:10;
+      --z-fixed:100;
+      --z-modal:1000;
+}
+

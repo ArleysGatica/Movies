@@ -1,0 +1,16 @@
+@use 'styles/config/_mixins.scss';
+@use 'styles/config/_variables.scss';
+@use 'styles/base/_base.scss';
+@use 'styles/components/_navbar.scss';
+@use 'styles/components/_btn.scss';
+@use 'styles/components/_categories.scss';
+@use 'styles/components/_filter.scss';
+@use 'styles/components/_productList.scss';
+@use 'styles/components/_footer.scss';
+@use 'styles/components/_customInputDate.scss';
+@use 'styles/helpers/_helpers.scss';
+@use 'styles/layout/_layout.scss';
+@use 'styles/components/Header';
+
+
+//esto esta aca. https://create-react-app.dev/docs/adding-a-sass-stylesheet/

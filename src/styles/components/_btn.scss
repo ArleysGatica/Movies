@@ -1,0 +1,13 @@
+.btn {
+    border-radius: 14px;
+    padding: .5rem;
+    font-weight: 600;
+    font-size: 14px;
+    
+    &--active{
+        background-color: var(--red-full);
+    }
+    &--unactive{
+        background-color: var(--red-light);
+    }
+}

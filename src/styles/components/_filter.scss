@@ -1,0 +1,31 @@
+.filter {
+    display: flex;
+    padding: 1rem;
+
+    &__grouptext {
+        align-items: center;
+        background-color: white;
+        border-radius: var(--border-radius-default);
+        display: flex;
+        margin-right: 1rem;
+        padding-left: 1rem;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    &__inputtext {
+        border: none;
+        font-size: 1rem;
+        padding: 1rem;
+        width: 100%;
+        outline: none;
+    }
+
+    &__icon {
+        color: var(--red-full);
+    }
+}
+
+.openFilter {
+    background-color: #333;
+}
